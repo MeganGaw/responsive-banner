@@ -1,7 +1,31 @@
 html {
-  font-family: Georgia;
+  font-family: Georgia,serif;
+
+  color: #fff;
 }
 
-img {
-  max-height: 500px;
+a {
+  border: #efefef;
+  color: #fff;
+}
+
+.content {
+  background-color: #495562;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: linear-gradient(to bottom,transparent,rgba(73, 85, 98, .9))
+    background-color: transparent;
+  }
+  .max-height {
+    max-height: 500px;
+    background-color: #495562;
+    position: relative;
+    overflow: hidden;
+  }
 }
