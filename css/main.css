@@ -1,12 +1,11 @@
 html {
-  font-family: Georgia,serif;
-
+  font-family: Georgia, serif;
   color: #fff;
 }
 
-a {
-  border: #efefef;
-  color: #fff;
+.btn {
+  border-color: #97a49b;
+  color: #efefef;
 }
 
 .content {
@@ -19,9 +18,10 @@ a {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: linear-gradient(to bottom,transparent,rgba(73, 85, 98, .9))
     background-color: transparent;
+    background-image: linear-gradient(to bottom, transparent, rgba(17, 60, 0, 0), rgba(73, 85, 98, .9));
   }
+
   .max-height {
     max-height: 500px;
     background-color: #495562;
